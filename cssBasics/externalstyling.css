@@ -1,0 +1,9 @@
+/* This is external styling 
+widely used in actual projects.
+*/
+h1 {
+  color: blue;
+}
+p {
+  color: rgb(128, 102, 0);
+}
