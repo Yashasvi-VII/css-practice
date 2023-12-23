@@ -57,4 +57,5 @@ header {
 .search_input {
   color: #696e79;
   background-color: #f5f5f6;
+  flex-grow: 1;
 }
