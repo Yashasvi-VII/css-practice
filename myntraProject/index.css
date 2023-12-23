@@ -93,3 +93,11 @@ header {
   align-items: center;
   font-size: 14px;
 }
+
+/* Main Section */
+.banner_container {
+  margin: 40px 0;
+}
+.banner_image {
+  width: 100%;
+}
