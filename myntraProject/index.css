@@ -42,6 +42,13 @@ header {
   font-weight: 700;
   text-decoration: none;
   text-transform: uppercase;
+  padding: 28px 0;
+  border-bottom: 5px solid #ffffff;
+}
+
+/* pesudo class */
+.nav_bar a:hover {
+  border-bottom: 5px solid #f54ef5;
 }
 
 .nav_bar a sup {
