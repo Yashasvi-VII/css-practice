@@ -30,3 +30,19 @@ header {
   min-width: 500px;
   justify-content: space-between;
 }
+
+/* Grouping selectors */
+.nav_bar a {
+  font-size: 14px;
+  letter-spacing: 0.3px;
+  color: #282c3f;
+  /*  font weight can be 100 to 900 */
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.nav_bar a sup {
+  font-size: 10px;
+  color: #ff3f6c;
+}
