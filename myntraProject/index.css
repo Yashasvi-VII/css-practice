@@ -48,7 +48,7 @@ header {
 
 /* pesudo class */
 .nav_bar a:hover {
-  border-bottom: 5px solid #f54ef5;
+  border-bottom: 5px solid #ff3f6c;
 }
 
 .nav_bar a sup {
