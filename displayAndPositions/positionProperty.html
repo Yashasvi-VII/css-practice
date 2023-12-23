@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Position Property</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .box {
+        width: 50px;
+        height: 50px;
+        background-color: seagreen;
+        margin: 5px;
+      }
+      #box1 {
+        /* this is default and is painted in document  */
+        position: static;
+      }
+      #box2 {
+        /* painted wrt parent */
+        position: relative;
+        top: 10px;
+        left: 50px;
+      }
+      #box3 {
+        position: absolute;
+        /* in absolute element comes out of page , and parent of this element is page i.e body 
+        sometimes there comes requirenment in website where we have to 
+        show overlaping of the elements so this property absolute will work there
+        */
+        top: 20px;
+      }
+      #box4 {
+        /* this is same as absolute element comes out of page , and parent of this element is page 
+        and this is not affected by scroll bar*/
+        position: fixed;
+        right: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="box1" class="box">Box 1</div>
+    <div id="box2" class="box">Box 2</div>
+    <div id="box3" class="box">Box 3</div>
+    <div id="box4" class="box">Box 4</div>
+    <div class="box">Box</div>
+    <div class="box">Box</div>
+    <div class="box">Box</div>
+    <div class="box">Box</div>
+    <div class="box">Box</div>
+    <div class="box">Box</div>
+    <div class="box">Box</div>
+    <div class="box">Box</div>
+    <div class="box">Box</div>
+    <div class="box">Box</div>
+    <div class="box">Box</div>
+    <div class="box">Box</div>
+    <div class="box">Box</div>
+    <div class="box">Box</div>
+    <div class="box">Box</div>
+  </body>
+</html>
