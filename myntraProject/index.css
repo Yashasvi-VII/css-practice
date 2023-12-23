@@ -46,3 +46,15 @@ header {
   font-size: 10px;
   color: #ff3f6c;
 }
+
+.search_bar {
+  height: 40px;
+  min-width: 400px;
+  display: flex;
+}
+.search_icon {
+}
+.search_input {
+  color: #696e79;
+  background-color: #f5f5f6;
+}
