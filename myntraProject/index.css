@@ -3,6 +3,7 @@
   padding: 0;
   font-family: Assistant, -apple-system, system-ui, -apple-system,
     BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
 }
 header {
   display: flex;
@@ -51,11 +52,14 @@ header {
   height: 40px;
   min-width: 400px;
   display: flex;
+  align-items: center;
 }
 .search_icon {
+  height: 21px;
 }
 .search_input {
   color: #696e79;
   background-color: #f5f5f6;
   flex-grow: 1;
+  height: 40px;
 }
